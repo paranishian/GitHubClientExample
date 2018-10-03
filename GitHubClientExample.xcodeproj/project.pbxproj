@@ -12,6 +12,10 @@
 		C15F21D02163963C00589F5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C15F21CE2163963C00589F5C /* Main.storyboard */; };
 		C15F21D22163963F00589F5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C15F21D12163963F00589F5C /* Assets.xcassets */; };
 		C15F21D52163963F00589F5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C15F21D32163963F00589F5C /* LaunchScreen.storyboard */; };
+		C15F21DD216396C000589F5C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15F21DC216396C000589F5C /* User.swift */; };
+		C15F21DF2163973E00589F5C /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15F21DE2163973E00589F5C /* API.swift */; };
+		C15F21E12163A03400589F5C /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15F21E02163A03400589F5C /* ImageDownloader.swift */; };
+		C15F21E32164421F00589F5C /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15F21E22164421F00589F5C /* UserListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		C15F21D12163963F00589F5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C15F21D42163963F00589F5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C15F21D62163963F00589F5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C15F21DC216396C000589F5C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C15F21DE2163973E00589F5C /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		C15F21E02163A03400589F5C /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		C15F21E22164421F00589F5C /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				C15F21D12163963F00589F5C /* Assets.xcassets */,
 				C15F21D32163963F00589F5C /* LaunchScreen.storyboard */,
 				C15F21D62163963F00589F5C /* Info.plist */,
+				C15F21DC216396C000589F5C /* User.swift */,
+				C15F21DE2163973E00589F5C /* API.swift */,
+				C15F21E02163A03400589F5C /* ImageDownloader.swift */,
+				C15F21E22164421F00589F5C /* UserListViewModel.swift */,
 			);
 			path = GitHubClientExample;
 			sourceTree = "<group>";
@@ -136,7 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C15F21CD2163963C00589F5C /* ViewController.swift in Sources */,
+				C15F21E32164421F00589F5C /* UserListViewModel.swift in Sources */,
+				C15F21E12163A03400589F5C /* ImageDownloader.swift in Sources */,
 				C15F21CB2163963C00589F5C /* AppDelegate.swift in Sources */,
+				C15F21DF2163973E00589F5C /* API.swift in Sources */,
+				C15F21DD216396C000589F5C /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
