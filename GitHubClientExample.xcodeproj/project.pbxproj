@@ -16,6 +16,8 @@
 		C15F21DF2163973E00589F5C /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15F21DE2163973E00589F5C /* API.swift */; };
 		C15F21E12163A03400589F5C /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15F21E02163A03400589F5C /* ImageDownloader.swift */; };
 		C15F21E32164421F00589F5C /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15F21E22164421F00589F5C /* UserListViewModel.swift */; };
+		C15F21E5216445AD00589F5C /* UserCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15F21E4216445AD00589F5C /* UserCellViewModel.swift */; };
+		C15F21E721644ACB00589F5C /* UIImage+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15F21E621644ACB00589F5C /* UIImage+Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		C15F21DE2163973E00589F5C /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		C15F21E02163A03400589F5C /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
 		C15F21E22164421F00589F5C /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
+		C15F21E4216445AD00589F5C /* UserCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCellViewModel.swift; sourceTree = "<group>"; };
+		C15F21E621644ACB00589F5C /* UIImage+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Color.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 				C15F21DE2163973E00589F5C /* API.swift */,
 				C15F21E02163A03400589F5C /* ImageDownloader.swift */,
 				C15F21E22164421F00589F5C /* UserListViewModel.swift */,
+				C15F21E4216445AD00589F5C /* UserCellViewModel.swift */,
+				C15F21E621644ACB00589F5C /* UIImage+Color.swift */,
 			);
 			path = GitHubClientExample;
 			sourceTree = "<group>";
@@ -148,7 +154,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C15F21CD2163963C00589F5C /* ViewController.swift in Sources */,
+				C15F21E721644ACB00589F5C /* UIImage+Color.swift in Sources */,
 				C15F21E32164421F00589F5C /* UserListViewModel.swift in Sources */,
+				C15F21E5216445AD00589F5C /* UserCellViewModel.swift in Sources */,
 				C15F21E12163A03400589F5C /* ImageDownloader.swift in Sources */,
 				C15F21CB2163963C00589F5C /* AppDelegate.swift in Sources */,
 				C15F21DF2163973E00589F5C /* API.swift in Sources */,
